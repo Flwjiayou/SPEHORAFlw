@@ -1,0 +1,255 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+body {
+	font-size: 12px;
+	padding-bottom: 0.866666rem;
+}
+.bbox{
+	width: 100%;
+	height: 0.586666rem;
+	position: relative;
+}
+.search{
+	width: 4.733333rem;
+	height: 0.4rem;
+	background-color: #eee;
+	position: absolute;
+	top: 0.786666rem;
+	right: 0.133333rem;
+	z-index: 11;
+	opacity: 0.9;
+	
+}
+.search img{
+	width:0.266666rem;
+	height: 0.266666rem;
+	
+}
+.search button{
+	width:0.266666rem;
+	height: 0.266666rem;
+	position: absolute;
+	top: 0.053333rem;
+	left: 0.08rem;
+	border: none;
+	background-color: transparent;
+}
+.search input{
+	width: 4rem;
+	height: 0.266666rem;
+	position: absolute;
+	top: 0.053333rem;
+	left: 0.4rem;
+	border: none;
+	background-color: transparent;
+}
+.head{
+	width: 5rem;
+	height: 0.586666rem;
+	background-color: pink;
+	position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+}
+.head .logo{
+	box-sizing: border-box;
+	height: 0.393333rem;
+    width: 0.393333rem;
+    float: left;
+    margin:0.093333rem 0rem 0.1rem 0.133333rem;
+}
+.logo-text{
+	width: 2.066666rem;
+	height: 0.4rem;
+	float: left;
+	/*background-color: purple;*/
+	margin: 0.093333rem 0rem 0.093333rem 0.933333rem;
+}
+.loginStatus{
+	position: absolute;
+    top:0.2rem ;
+    right:0.2rem ;
+    font-size:0.2rem;
+    font-family: PingFangSC-Regular;
+    font-weight: 400;
+    color: #000;
+    line-height: 0.2rem;
+}
+
+.tbox{
+	width: 100%;
+	height: 0.866666rem;
+	position: fixed;
+	bottom: 0;
+	background-color: white;
+}
+.tbox ul{
+	display: flex;
+}
+.tbox li{
+	text-align: center;
+	list-style: none;
+	width: 1rem;
+	height: 0.733333rem;
+	/*background-color: darkcyan;*/
+}
+.tbox a{
+	text-decoration: none;
+}
+.tbox img{
+	margin-left: 0.32rem;
+	width: 0.4rem;
+	height: 0.4rem;
+	display: block;
+}
+.tbox .tbox-text{
+font-size: 0.2rem;
+color: black;
+}
+.second-head{
+	box-sizing: border-box;
+	width: 5rem;
+	height: 4.533333rem;
+	overflow: hidden;
+	
+}
+.second-head ul{
+	width: 30rem;
+	height: 4.533333rem;
+	animation: second-headmove 10s linear infinite;
+}
+.second-head li{
+	/*display: inline-block;*/
+	float: left;
+}
+.second-head li,.second-head img{
+	width: 5rem;
+	height: 100%;
+}
+@keyframes second-headmove{
+  0%{
+					margin-left: 0px;
+				}
+				5%{
+					margin-left: -375px;
+				}
+				30%{
+					margin-left: -750px;
+				}
+				50%{
+					margin-left: -1125px;
+				}
+				70%{
+					margin-left: -1500px;
+				}
+				100%{
+					margin-left: -1875px;
+				}
+}
+
+
+.head-menu{
+	width: 5rem;
+	height: 1.946666rem;
+	/*background: palevioletred;*/
+	margin-top: 0.133333rem;
+	
+}
+.head-menu ul{
+	display: flex;
+	flex-wrap: wrap;
+}
+.head-menu li:nth-of-type(5n+1){
+	margin-left: 0.346666rem;
+}
+.head-menu li{
+	text-align: center;
+	list-style: none;
+	float: left;
+	width: 0.666666rem;
+	height: 0.8rem;
+	margin-top: 0.2rem;
+	margin-right: 0.233333rem;
+}
+.head-menu a{
+	text-decoration: none;
+	flex-wrap: wrap;
+
+}
+.head-menu img{
+	width: 0.48rem;
+	height: 0.48rem;
+	box-sizing: border-box;
+	margin-left: 0.08rem;
+}
+.head-menu .menu-text{
+	font-size:0.133333rem;
+	    font-family: PingFangSC-Regular;
+	    color: black;
+
+	  
+}
+.home-new{
+	width: 5rem;
+	height:2.8rem;
+	background-color: orange;
+	margin-top: 0.133333rem;
+}
+.floor-describe{
+	width: 5rem;
+	height: 1.013333rem;
+	/*background-color: greenyellow;*/
+	margin-top: 10px;
+	display: flex;
+	flex-wrap: wrap;
+	box-sizing: border-box;
+	padding-left: 0.266666rem;
+}
+.floor-describe a{
+	text-decoration: none;
+
+}
+.floor-describe a:nth-last-of-type(1){
+	font-size: 0.173333rem;
+	color: #8C8A8C;
+}
+.floor-describe a:nth-last-of-type(2){
+	font-size: 0.24rem;
+		color: black;
+}
+.floor-common{
+	width: 5rem;
+	height: 2.36rem;
+	/*background-color: peachpuff;*/
+	overflow: hidden;
+}
+.floor-common ul{
+	display: flex;
+/*	flex-wrap: wrap;*/
+	overflow: auto;
+}
+.floor-common li{
+	list-style: none;
+	width: 1.4rem;
+	height: 2.36rem;
+	/*background-color: cornflowerblue;*/
+	text-align: center;
+	flex-shrink: 0;
+}
+.floor-common a{ 
+text-decoration: none;
+}
+.floor-common .b{
+	font-size: 0.16rem;
+	color: #8C8A8C;
+	
+}
+.floor-common .bb{
+	font-size: 0.186666rem;
+	color: black;
+	font-family: PingFangSC-Medium;
+}
